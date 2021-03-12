@@ -83,7 +83,9 @@ public class ChatServer {
             // 发广播
             broadCast(channel,msg);
         }
-
+        if (count == -1) {
+            // 客户端关闭
+        }
     }
 
     // 给所有的客户端发广播
