@@ -1,4 +1,4 @@
-package com.it.nio.file;
+package com.it.heima.nio.file;
 
 import org.junit.Test;
 
