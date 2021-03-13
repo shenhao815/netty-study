@@ -1,4 +1,4 @@
-package com.it.heima.nio.netty.basic;
+package com.it.heima.netty.basic;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

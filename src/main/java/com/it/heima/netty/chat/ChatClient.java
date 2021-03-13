@@ -1,4 +1,4 @@
-package com.it.heima.nio.netty.chat;
+package com.it.heima.netty.chat;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.*;

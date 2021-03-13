@@ -1,6 +1,6 @@
-package com.it.heima.nio.netty.rpc.clientStub;
+package com.it.heima.netty.rpc.clientStub;
 
-import com.it.heima.nio.netty.rpc.serverstub.ClassInfo;
+import com.it.heima.netty.rpc.serverstub.ClassInfo;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

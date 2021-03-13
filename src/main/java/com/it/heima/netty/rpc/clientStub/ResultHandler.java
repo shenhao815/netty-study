@@ -1,4 +1,4 @@
-package com.it.heima.nio.netty.rpc.clientStub;
+package com.it.heima.netty.rpc.clientStub;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

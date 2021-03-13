@@ -1,4 +1,4 @@
-package com.it.heima.nio.netty.rpc.serverstub;
+package com.it.heima.netty.rpc.serverstub;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -14,7 +14,7 @@ public class InvokeHandler extends ChannelInboundHandlerAdapter {
     // 得到某接口下某个实现类的名字
     private String getImplClassName(ClassInfo classInfo) throws ClassNotFoundException {
         // 服务方接口和实现类所在的包路径
-        String interfacePath = "com.it.heima.nio.netty.rpc.server";
+        String interfacePath = "com.it.heima.netty.rpc.server";
         int lastDot = classInfo.getClassName().lastIndexOf(".");
         String interfaceName = classInfo.getClassName().substring(lastDot);
         Class superClass = Class.forName(interfacePath + interfaceName);

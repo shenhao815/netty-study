@@ -1,6 +1,6 @@
-package com.it.heima.nio.netty.rpc.client;
+package com.it.heima.netty.rpc.client;
 
-import com.it.heima.nio.netty.rpc.clientStub.NettyPRCProxy;
+import com.it.heima.netty.rpc.clientStub.NettyPRCProxy;
 
 // 服务调用方（消费方）
 public class TestNettyRPC {

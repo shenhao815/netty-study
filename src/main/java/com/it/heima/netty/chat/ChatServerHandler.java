@@ -1,4 +1,4 @@
-package com.it.heima.nio.netty.chat;
+package com.it.heima.netty.chat;
 
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelHandlerContext;

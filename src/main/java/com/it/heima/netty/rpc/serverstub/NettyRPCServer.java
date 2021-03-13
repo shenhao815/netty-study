@@ -1,4 +1,4 @@
-package com.it.heima.nio.netty.rpc.serverstub;
+package com.it.heima.netty.rpc.serverstub;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;
